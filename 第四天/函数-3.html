@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /*//    判断是不是闰年
+
+    function isLeapYear(year) {
+        return year % 4 === 0 && year % 100 !== 0 || year % 400 === 0;
+    }
+
+    function getDays(year, month, day) {
+        //定义变量的存储天气
+        var days = day;
+        if (month === 1) {
+            return days;
+        }
+        //定义月份
+        var months = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+        for (var i = 0; i < month - 1; i++) {
+            days += months[i];
+        }
+        //    判断是不是闰年
+        if (isLeapYear(year) && month >= 2) {
+            days++;
+        }
+        return days;
+    }
+
+    var year = parseInt(prompt("请输入年份"));
+    var month = parseInt(prompt("请输入月份"));
+    var day = parseInt(prompt("请输入日"));
+    console.log(getDays(year, month, day));*/
+    //    求一个数字阶乘的和
+    function getJieCheng(i) {
+        var sum = 1;
+        for (var j = 1; j <= i; j++) {
+            sum *= j;
+        }
+        return sum;
+
+    }
+
+    function getJieChengSum(b) {
+        var sum = 0;
+        for (var i = 1; i <= b; i++) {
+            sum += getJieCheng(i);
+        }
+        return sum;
+    }
+
+    console.log(getJieChengSum(5));
+    // 阶乘
+    /*var jieCheng=5;
+    var sum=1;
+    for (var i=1;i<=jieCheng;i++){
+        sum*=i;
+    }
+    console.log(sum);*/
+</script>
+</body>
+</html>

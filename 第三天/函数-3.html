@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    /*
+2019年4月5日 13:37:24
+目的:学会函数返回值
+---------------------
+在Webstorm中输出的结果是：
+总结：
+
+---------------------
+*/
+    //set:设置
+    //get:获取
+    //函数的返回值:在函数内部有return关键字,并且在关键字后面有内容,这个内容被返回了
+    //当函数调用之后,需要这个返回值,那么就定义变量接收,即可
+    /*function getSum(x,y) {
+        return x + y;
+    }
+    // getSum(10,20);
+    var ad=getSum(10,20);
+    console.log(ad);*/
+
+
+
+    /*
+    *
+    * 如果一个函数中有return ,那么这个函数就有返回值
+    * 如果一个函数中没有return,那么这个函数就没有返回值
+    * 如果一个函数中没有明确的返回值,那么调用的时候接收了,结果就是undefined
+    * (没有明确返回值:函数中没有return,函数中有return,但是return后面没有任何内容)
+    * 函数没有返回值,但是在调用的时候接收了,那么结果就是undefined
+    * 变量声明了,没有赋值,结果也是undefined
+    * 如果一个函数有参数,有参数的函数
+    * 如果一个函数没有参数,没有参数的函数
+    * 形参的个数和实参的个数可以不一致
+    * return 下面的代码是不会执行的
+    *
+    *
+    *
+    * */
+    // 练习：
+    // 求1~n之间所有数字的和
+    /*function getThreeMax(n) {
+        var sum=0;
+        for (var i=1;i<n;i++){
+            sum+=n;
+        }
+        return sum;
+    }
+    console.log(getThreeMax(20));*/
+    // 求n~m之间所有数字的和
+    /*function getThreeMax(n,m) {
+        var sum=0;
+        for (var i=n;i<m;i++){
+            sum+=i;
+        }
+        return sum;
+    }
+    console.log(getThreeMax(1,3));*/
+    // 求圆的面积
+    /*function consoleArea(r) {
+        return Math.PI*r*r;
+    }
+    console.log(consoleArea(10));*/
+    // 判断一个数是不是质数
+    function Prime(n) {
+        for (i = 2; i < n; i++) {
+            if (n % i !== 0) {
+                console.log("是质数");
+            }else {
+                console.log("不是");
+            }
+        }
+    }
+    console.log(Prime(9));
+</script>
+</body>
+</html>

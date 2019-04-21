@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /*
+        2019年3月30日 21:21:02
+        目的:continue 在循环中遇到continue,直接开始下一次循环
+        ---------------------
+        在Webstorm中输出的结果是：
+        总结：
+
+        ---------------------
+    */
+    // 求100~200之见所有奇数的和
+    //     var sum=0;
+    //     var i=100;
+    //     while (i<=200){
+    //         if (i%2==0){
+    //             i++;
+    //             continue;
+    //         }
+    //         sum+=i;
+    //         i++;
+    //     }
+    //     console.log(sum);
+    //    求整数1~100的累加值，但要求跳过个位为3的数
+    // 求100~200之见所有除了个位数为3的和
+    var sum = 0;
+    var i = 100;
+    while (i <= 200) {
+        if (i % 10 == 3) {
+            i++;
+            continue;
+        }
+        sum += i;
+        i++;
+    }
+    console.log(sum);
+
+</script>
+</body>
+</html>

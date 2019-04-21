@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /*
+    *   时间：2019年4月6日 12:26:11
+    *   目的：函数练习
+    *   结果：
+    *       --------------------
+    *
+    *
+    *
+    *       --------------------
+    *
+    **/
+    //    计算两个数最大值
+    /*function getThreeMax(x,y) {
+        if (x>y){
+            return x;
+        } else {
+            return y;
+        }
+    }
+    var x=10;
+    var y=30;
+    console.log(getThreeMax(x,y));*/
+    // 计算三个数最大值
+    /*function getThreeMax(x, y, z) {
+        return x > y ? (x > z ? x : z) : (y > z ? y : z);
+    }
+
+    var x = 10;
+    var y = 60;
+    var z = 30;
+    console.log(getThreeMax(x, y, z));*/
+    // 判断一个数是不是质数
+    function judgePrime(a) {
+        for (var i = 2; i < a; i++) {
+            if (a % i === 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    console.log(judgePrime(16) ? "是质数" : "不是质数");
+</script>
+</body>
+</html>

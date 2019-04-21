@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /*
+   2019-3-13 17:54:41
+   目的：练习作业
+   */
+    // 讲解思路。如果不会写程序，可以先把数学公式准备好
+    //    本金10000元存入银行，年利率是千分之三，每过1年，将本金和利息相加作为新的本金。计算5年后，获得的本金是多少？
+    //    有个人想知道，一年之内一对兔子能繁殖多少对？于是就筑了一道围墙把一对兔子关在里面。已知一对兔子每个月可以生一对小兔子，而一对兔子从出生后第3个月起每月生一对小兔子。假如一年内没有发生死亡现象，那么，一对兔子一年内（12个月）能繁殖成多少对？（兔子的规律为数列，1，1，2，3，5，8，13，21）
+//    银行
+   /* var principal=10000;
+    var rate=0.003;
+    var sum1;
+    var sum2;
+    for (i=1;i<=5;i++){
+        sum1=principal*rate;
+        sum2=principal+sum1;
+        principal=principal+sum1;
+    }
+    console.log(sum2);*/
+    //    有个人想知道，一年之内一对兔子能繁殖多少对？于是就筑了一道围墙把一对兔子关在里面。已知一对兔子每个月可以生一对小兔子，而一对兔子从出生后第3个月起每月生一对小兔子。假如一年内没有发生死亡现象，那么，一对兔子一年内（12个月）能繁殖成多少对？（兔子的规律为数列，1，1，2，3，5，8，13，21）
+//    兔子
+    var rabbit1=1;
+    var rabbit2=1;
+    var rabbit3;
+    var sum;
+    for (j=1;j<=10;j++){
+        rabbit3=rabbit2;
+        rabbit2=rabbit1+rabbit2;
+        rabbit1=rabbit3;
+    }
+    console.log(rabbit2);
+</script>
+</body>
+</html>

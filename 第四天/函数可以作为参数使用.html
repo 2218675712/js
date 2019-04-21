@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /*
+        *   时间：2019年4月20日 18:06:23
+        *   目的：
+        *   结果：
+        *       --------------------
+        *
+        *
+        *
+        *       --------------------
+        *
+        **/
+    // 函数可以作为参数使用，如果一个函数作为参数使用，那么我们可以说这个参数（函数）叫做回调函数
+    // 只要看到一个函数作为参数使用了，那就是回调函数
+    function f1(fn) {
+        fn();
+    }
+    function f2() {
+        console.log("这是回调参数");
+    }
+    f1(f2);
+</script>
+</body>
+</html>
