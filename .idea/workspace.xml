@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e25fa354-2c5a-4f73-bba7-52fbd19c9e7c" name="Default Changelist" comment="github" />
+    <list default="true" id="e25fa354-2c5a-4f73-bba7-52fbd19c9e7c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/第四天/预解析.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -12,21 +15,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/第四天/作用域链.html">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/第四天/预解析.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            <state relative-caret-position="384">
+              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/第四天/123.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第四天/复习.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            <state relative-caret-position="432">
+              <caret line="18" column="7" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="18" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -53,6 +56,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/第四天/123.html" />
+        <option value="$PROJECT_DIR$/第四天/dgfh.html" />
+        <option value="$PROJECT_DIR$/第四天/预解析.html" />
       </list>
     </option>
   </component>
@@ -93,6 +98,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../源代码" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
@@ -118,7 +129,9 @@
       <option name="presentableId" value="Default" />
       <updated>1555933973451</updated>
       <workItem from="1555933990318" duration="697000" />
-      <workItem from="1555934756810" duration="819000" />
+      <workItem from="1555934756810" duration="1795000" />
+      <workItem from="1555940412870" duration="106000" />
+      <workItem from="1556017749848" duration="1282000" />
     </task>
     <task id="LOCAL-00001" summary="github ceshi">
       <created>1555935436826</created>
@@ -134,17 +147,31 @@
       <option name="project" value="LOCAL" />
       <updated>1555935500067</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="github">
+      <created>1555935590575</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555935590575</updated>
+    </task>
+    <task id="LOCAL-00004" summary="删掉">
+      <created>1555935737883</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555935737883</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1810000" />
+    <option name="totallyTimeSpent" value="4174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19140625" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19140625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -155,7 +182,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32967034" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49934897" weight="0.32921812" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50065106" side_tool="true" weight="0.3282967" />
       <window_info anchor="bottom" x="11" y="254" width="1514" height="315" id="调试" order="11" weight="0.46776405" />
@@ -170,23 +197,83 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="github ceshi" />
     <MESSAGE value="github" />
-    <option name="LAST_COMMIT_MESSAGE" value="github" />
+    <MESSAGE value="删掉" />
+    <option name="LAST_COMMIT_MESSAGE" value="删掉" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/第四天/123.html" />
     <entry file="file://$PROJECT_DIR$/第四天/作用域链.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        <state relative-caret-position="-90">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第四天/123.html">
+    <entry file="file://$PROJECT_DIR$/第四天/dgfh.html" />
+    <entry file="file://$PROJECT_DIR$/第四天/复习.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state relative-caret-position="432">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第四天/预解析.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
         </state>
       </provider>
     </entry>
