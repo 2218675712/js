@@ -45,6 +45,20 @@
         console.log(c);
     }
 //    在运行的时候因为函数里面a是var局部变量，而b,c是隐式全局变量，所以a是报错*/
+//    小案例
+    /*f1();
+    var f1=function () {
+        console.log(a);
+        var a=1;
+    }
+    // 解析完后
+    var f1;
+    f1();   //报错
+    function () {
+        console.log(a);
+        var a=1;
+    }
+    // 这样只会把var f1提前，所以报错*/
 </script>
 </body>
 </html>
