@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /*
+*   时间：2019年5月13日 19:31:03
+*   目的：理解自定义对象，系统做了什么事情
+*   结果：
+*       --------------------
+*
+*
+*
+*       --------------------
+*
+**/
+    //自定义构造函数创建对象,我要自己定义一个构造函数,自定义构造函数,创建对象
+    //函数和构造函数的区别；名字是不是大写(首字母是大写)
+    /*function Dog(name, age) {
+        this.name = name;
+        this.age = age;
+        this.hello = function () {
+            console.log("你好我叫" + this.name + "今年" + this.age);
+        }
+    }
+
+    var dog = new Dog("小明", 18);
+    var cat = new Dog("小军", 19);
+    dog.hello();*/
+    /*
+    *
+    * 1. 在内存中开辟(申请一块空闲的空间)空间,存储创建的新的对象
+    * 2. 把this设置为当前的对象
+    * 3. 设置对象的属性和方法的值
+    * 4. 把this这个对象返回
+    *
+    *
+    * */
+
+
+
+    //通过自定义构造函数实现下面的例子:
+
+    //创建一个图片的对象,图片有宽,有高,有大小(4M),图片可以展示内容
+    /*function Tupian(kuan,gao,daxiao) {
+        this.kuan=kuan;
+        this.gao=gao;
+        this.daxiao=daxiao;
+        this.xingwei=function () {
+            console.log("展示内容");
+        };
+    }
+    var tuPian=new Tupian("500px","200px","4M");
+    console.log(tuPian.kuan);
+    console.log(tuPian.gao);
+    console.log(tuPian.daxiao);
+    tuPian.xingwei();*/
+    //创建一个小猫的对象,猫有颜色，体重，年龄,小猫可以抓耗子,可以打架
+    /*function Cat(name, color, weight, age) {
+        this.name = name;
+        this.color = color;
+        this.age = age;
+        this.action = function () {
+            console.log(name + "可以抓耗子，可以打架");
+        };
+    }
+
+    var cat = new Cat("cat_1", "red", 20, 10);
+    console.log(cat.color);
+    console.log(cat.age);
+    cat.action();
+    cat = new Cat("cat_2", "blue", 60, 30);
+    console.log(cat.color);
+    console.log(cat.age);
+    cat.action();*/
+</script>
+</body>
+</html>
