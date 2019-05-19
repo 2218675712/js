@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e25fa354-2c5a-4f73-bba7-52fbd19c9e7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/第五天/创建对象的图解.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第五天/自变量的方式创建对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第五天/JSON格式的数据.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第五天/设置和获取属性的另一种写法.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第五天/自定义构造函数U创建对象做了4件事.html" beforeDir="false" afterPath="$PROJECT_DIR$/第五天/自定义构造函数U创建对象做了4件事.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,12 +19,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/第五天/自变量的方式创建对象.html">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第五天/设置和获取属性的另一种写法.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+            <state relative-caret-position="888">
+              <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../03Javascript 基础/资料/01-JavaScript-第5天{JS基础语法}/04源代码/13JSON格式的数据.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="84" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/第五天/JSON格式的数据.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2016">
+              <caret line="84" column="7" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -64,6 +81,9 @@
         <option value="$PROJECT_DIR$/第五天/自定义构造函数U创建对象做了4件事.html" />
         <option value="$PROJECT_DIR$/第五天/创建对象的图解.html" />
         <option value="$PROJECT_DIR$/第五天/自变量的方式创建对象.html" />
+        <option value="$PROJECT_DIR$/第五天/总结对象.html" />
+        <option value="$PROJECT_DIR$/第五天/设置和获取属性的另一种写法.html" />
+        <option value="$PROJECT_DIR$/第五天/JSON格式的数据.html" />
       </list>
     </option>
   </component>
@@ -80,6 +100,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -96,7 +117,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -131,16 +151,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.scratch.js">
+  <component name="RunManager">
     <configuration name="预解析.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/源代码/第四天/预解析.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="scratch.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$APPLICATION_CONFIG_DIR$/scratches/scratch.js">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.scratch.js" />
         <item itemvalue="JavaScript Debug.预解析.html" />
       </list>
     </recent_temporary>
@@ -177,7 +193,9 @@
       <workItem from="1557833213031" duration="48000" />
       <workItem from="1557835204003" duration="461000" />
       <workItem from="1558005215144" duration="657000" />
-      <workItem from="1558007699135" duration="1698000" />
+      <workItem from="1558007699135" duration="1776000" />
+      <workItem from="1558263411816" duration="4000" />
+      <workItem from="1558263584896" duration="3242000" />
     </task>
     <task id="LOCAL-00001" summary="github ceshi">
       <created>1555935436826</created>
@@ -298,17 +316,24 @@
       <option name="project" value="LOCAL" />
       <updated>1557749622813</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="自定义构造函数创建对象">
+      <created>1558009673366</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1558009673366</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34280000" />
+    <option name="totallyTimeSpent" value="37604000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.110964336" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19682959" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -499,13 +524,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第五天/04复习.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="83" column="30" lean-forward="true" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第五天/编程思想的概述.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -534,13 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第五天/调用自定义构造函数创建对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="18" column="3" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="18" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第五天/工厂模式创建对象.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -565,13 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第五天/创建对象的图解.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第五天/自定义构造函数U创建对象做了4件事.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
@@ -586,10 +590,125 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../03Javascript 基础/资料/01-JavaScript-第5天{JS基础语法}/04源代码/11总结对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="61" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/第五天/自变量的方式创建对象.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
+        <state relative-caret-position="440">
           <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第五天/04复习.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1776">
+          <caret line="83" column="30" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第五天/创建对象的图解.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第五天/调用自定义构造函数创建对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第五天/总结对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-822">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三天/函数-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2272" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三天/函数-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-592" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三天/函数-3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1504" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第四天/函数-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-736" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第四天/函数-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2896" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第四天/函数-3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-936" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第四天/函数也是一种数据类型.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第四天/函数可以作为参数使用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-208" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第四天/函数可以作为返回值使用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第四天/函数的其他定义方式.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="64" column="13" lean-forward="true" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/JavaScript/5.14/作业.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第五天/设置和获取属性的另一种写法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="888">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../03Javascript 基础/资料/01-JavaScript-第5天{JS基础语法}/04源代码/13JSON格式的数据.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="84" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第五天/JSON格式的数据.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2016">
+          <caret line="84" column="7" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="7" />
         </state>
       </provider>
     </entry>

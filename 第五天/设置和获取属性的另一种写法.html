@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /*
+*   时间：2019年5月19日 19:07:30
+*   目的：通过中括号以及双引号的方式调用
+*   结果：
+*       --------------------
+*
+*
+*
+*       --------------------
+*
+**/
+    //自定义构造函数
+    function People(name, age) {
+        this.name = name;
+        this.age = age;
+        this.eat = function () {
+            console.log("拿筷子");
+            console.log("吃");
+        };
+    }
+
+    var people_1 = new People("小明", 18);
+    //点语法
+    console.log(people_1.name);
+    console.log(people_1.age);
+    people_1.eat();
+    //中括号
+    console.log(people_1["name"]);
+    console.log(people_1["age"]);
+    people_1["eat"]();
+</script>
+</body>
+</html>
