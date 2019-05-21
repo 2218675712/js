@@ -32,17 +32,17 @@
         //    };
 
 
-        var json = {
+        /*var json = {
             "name": "小明",
             "age": "10",
             "sex": "男"
-        };
+        };*/
         //遍历对象,是不能通过for循环遍历,无序
 
         //key是一个变量,这个变量中存储的是该对象的所有的属性的名字
-        for (var key in json) {
+      /*  for (var key in json) {
             console.log(key + "===========" + json[key]);
-        }
+        }*/
 
 
         //    var key="name";
@@ -62,12 +62,18 @@
         //    for(var i=0;i<arr.length;i++){
         //      console.log(arr[i]);
         //    }
-
-
-
-
-
-
+        //json数据练习
+        var json= {
+            "name": "小军",
+            "sex": "男",
+            "age": "16",
+            "eat": function () {
+                console.log("会吃饭");
+            }
+        };
+        for(var i in json){
+            console.log(i+"---------"+json[i]);
+        }
 
 
 
