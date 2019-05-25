@@ -15,7 +15,7 @@
     在Webstorm中输出的结果是：
     ---------------------
     */
-//    Math 是一个内置对象， 它具有数学常数和函数的属性和方法。不是一个函数对象。
+    //    Math 是一个内置对象， 它具有数学常数和函数的属性和方法。不是一个函数对象。
     //MDN----在线的帮助文档
 
 
@@ -23,6 +23,38 @@
     //静态对象:不需要创建,直接就是一个对象,方法(静态方法)直接通过这个对象名字调用,
     //实例方法必须通过实例对象调用
     //静态方法必须通过大写的对象调用
+
+    /*
+    * Math.PI---------------------π
+    * Math.E----------------------常数的底数
+    * Math.abs(值)----------------绝对值
+    * Math.ceil(值)---------------向上取整
+    * Math.floor(值)--------------向下取整
+    * Math.max(值,值,值)-----------找一组数字中的最大值
+    * Math.min(值,值,值)-----------找一组数字中的最小值
+    * Math.pow(x,y)---------------计算x的y次幂
+    * Math.sqrt(值)---------------计算数字的平方根
+    * Math.random()---------------产生随机数*/
+
+
+
+
+
+
+    //    实验
+    console.log(Math.PI);                       //打印π
+    console.log(Math.abs(-10));                 //打印绝对值
+    console.log(Math.ceil(12.02));              //向上取整
+    console.log(Math.floor(12.99));             //向下取整
+    console.log(Math.fround(3.1));              //把小数转换成计算机存储的单精度小数     //实验,不推荐使用
+    console.log(Math.max(10, 20, 30, 2, 1));        //找一组数字中的最大值
+    console.log(Math.min(10, 20, 30, 2, 1));        //找一组数字中的最小值
+    console.log(Math.pow(10, 2));                //Math.pow()计算x的y次幂
+    console.log(Math.sqrt(16));                 //计算数字的平方根
+    console.log(Math.random());                 //产生随机数
+    // 范围0~1之见，如果需要产生整数的话需要这样
+    console.log(parseInt(Math.random()*5)+1);   //0~5之见
+    console.log(parseInt(Math.random()*10)+1);  //0~10之见
 </script>
 </body>
 </html>
