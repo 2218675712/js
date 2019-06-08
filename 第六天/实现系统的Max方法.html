@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /*
+        时间：2019年5月27日 18:53:31
+        目的：学会自己创建对象，并且使用
+        ---------------------
+        在Webstorm中输出的结果是：
+        总结：
+
+        ---------------------
+    */
+//    实现系统的Max方法
+    function myMax() {
+        // 添加一个方法
+        this.max = function () {
+            var max = arguments[0];
+            for (var i = 0; i < arguments.length; i++) {
+                if (max < arguments[i]) {
+                    max = arguments[i];
+                }
+            }
+            return max;
+        };
+    }
+
+    //实例对象
+    var max = new myMax();
+    var max1 = max.max(10, 20, 30, 40);
+    console.log(max1);
+
+</script>
+</body>
+</html>
