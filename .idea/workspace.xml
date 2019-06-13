@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e25fa354-2c5a-4f73-bba7-52fbd19c9e7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/第六天/conmon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第六天/总结Date对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第六天/格式化日期时间.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第六天/String对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第六天/String对象下的方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第六天/字符串属性.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第六天/Date对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/第六天/Date对象.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第六天/conmon.js" beforeDir="false" afterPath="$PROJECT_DIR$/第六天/conmon.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,20 +22,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/第六天/格式化日期时间.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/第六天/String对象下的方法.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+            <state relative-caret-position="584">
+              <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/第六天/conmon.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../03Javascript 基础/资料/01-JavaScript-第6天{JS基础语法}/04源代码/09String对象的下的方法.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            <state relative-caret-position="288">
+              <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -45,8 +45,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -87,14 +87,16 @@
         <option value="$PROJECT_DIR$/第六天/产生随机十六进制颜色.html" />
         <option value="$PROJECT_DIR$/第六天/Date对象.html" />
         <option value="$PROJECT_DIR$/第六天/总结Date对象.html" />
-        <option value="$PROJECT_DIR$/第六天/conmon.js" />
         <option value="$PROJECT_DIR$/第六天/格式化日期时间.html" />
+        <option value="$PROJECT_DIR$/第六天/conmon.js" />
+        <option value="$PROJECT_DIR$/第六天/String对象.html" />
+        <option value="$PROJECT_DIR$/第六天/String对象下的方法.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="875" />
-    <option name="y" value="40" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
     <option name="width" value="1040" />
     <option name="height" value="980" />
   </component>
@@ -105,7 +107,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,6 +123,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -129,7 +131,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js复习" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/第六天" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -139,11 +141,12 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\学习\网页\第二阶段.（JS+webAPI+jQuery基本功）\源代码\第六天" />
+      <recent name="D:\学习\网页\第二阶段.（JS+webAPI+jQuery基本功）\源代码\js复习" />
       <recent name="D:\学习\网页\第二阶段.（JS+webAPI+jQuery基本功）\源代码\第五天" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\学习\网页\第二阶段.（JS+webAPI+jQuery基本功）\源代码\js复习" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\学习\网页\第二阶段.（JS+webAPI+jQuery基本功）\源代码\第五天" />
     </key>
   </component>
@@ -224,7 +227,14 @@
       <workItem from="1559984942919" duration="1468000" />
       <workItem from="1560001178951" duration="1998000" />
       <workItem from="1560167387492" duration="1863000" />
-      <workItem from="1560181185406" duration="1690000" />
+      <workItem from="1560181185406" duration="1815000" />
+      <workItem from="1560251560197" duration="756000" />
+      <workItem from="1560255396928" duration="528000" />
+      <workItem from="1560262613997" duration="727000" />
+      <workItem from="1560337758518" duration="6000" />
+      <workItem from="1560340383079" duration="1024000" />
+      <workItem from="1560349470780" duration="1062000" />
+      <workItem from="1560423452670" duration="2933000" />
     </task>
     <task id="LOCAL-00001" summary="github ceshi">
       <created>1555935436826</created>
@@ -394,17 +404,24 @@
       <option name="project" value="LOCAL" />
       <updated>1560007052433</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="6.8">
+      <created>1560183418770</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1560183418770</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65568000" />
+    <option name="totallyTimeSpent" value="72729000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21730515" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21598415" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -529,26 +546,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/第三天/函数-3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1504" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四天/函数-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2896" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四天/函数-3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-936" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四天/函数也是一种数据类型.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第四天/函数可以作为参数使用.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-208" />
@@ -821,24 +818,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+    <entry file="file://$PROJECT_DIR$/第六天/conmon.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="770" column="21" lean-forward="true" selection-start-line="770" selection-start-column="21" selection-end-line="770" selection-end-column="21" />
+        <state relative-caret-position="200">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/第六天/格式化日期时间.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第六天/conmon.js">
+    <entry file="file://$PROJECT_DIR$/../03Javascript 基础/资料/01-JavaScript-第6天{JS基础语法}/04源代码/08String对象.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        <state relative-caret-position="608">
+          <caret line="97" column="35" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第六天/String对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="401" column="4" selection-start-line="401" selection-start-column="4" selection-end-line="401" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../03Javascript 基础/资料/01-JavaScript-第6天{JS基础语法}/04源代码/09String对象的下的方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第六天/String对象下的方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
         </state>
       </provider>
     </entry>
