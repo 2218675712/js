@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e25fa354-2c5a-4f73-bba7-52fbd19c9e7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/第六天/String对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第六天/String对象下的方法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第六天/字符串属性.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第六天/conmon.js" beforeDir="false" afterPath="$PROJECT_DIR$/第六天/conmon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第六天/String对象下的方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/第六天/String对象下的方法.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/第六天/String对象下的方法.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="584">
-              <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+            <state relative-caret-position="296">
+              <caret line="90" column="18" lean-forward="true" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -34,8 +31,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../03Javascript 基础/资料/01-JavaScript-第6天{JS基础语法}/04源代码/09String对象的下的方法.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="42" />
+            <state relative-caret-position="320">
+              <caret line="26" column="31" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="31" />
+              <caret line="27" column="25" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="25" />
+              <caret line="28" column="30" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="30" />
+              <caret line="29" column="25" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="25" />
+              <caret line="30" column="25" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -107,6 +108,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,11 +121,15 @@
               <item name="源代码" type="462c0819:PsiDirectoryNode" />
               <item name="第六天" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="源代码" type="b2602c69:ProjectViewProjectNode" />
+              <item name="源代码" type="462c0819:PsiDirectoryNode" />
+              <item name="第四天" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -138,7 +144,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -234,7 +240,8 @@
       <workItem from="1560337758518" duration="6000" />
       <workItem from="1560340383079" duration="1024000" />
       <workItem from="1560349470780" duration="1062000" />
-      <workItem from="1560423452670" duration="2933000" />
+      <workItem from="1560423452670" duration="3032000" />
+      <workItem from="1560600847129" duration="3007000" />
     </task>
     <task id="LOCAL-00001" summary="github ceshi">
       <created>1555935436826</created>
@@ -411,11 +418,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560183418770</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="字符串的方法">
+      <created>1560427637323</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1560427637323</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72729000" />
+    <option name="totallyTimeSpent" value="75835000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -509,7 +523,8 @@
     <MESSAGE value="自定义构造函数创建对象" />
     <MESSAGE value="作业" />
     <MESSAGE value="6.8" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.8" />
+    <MESSAGE value="字符串的方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="字符串的方法" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -546,11 +561,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/第四天/函数可以作为参数使用.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-208" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第四天/函数可以作为返回值使用.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-184" />
@@ -839,13 +849,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第六天/String对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -853,17 +856,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/第六天/String对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1824">
+          <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第四天/预解析.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../03Javascript 基础/资料/01-JavaScript-第6天{JS基础语法}/04源代码/09String对象的下的方法.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="42" />
+        <state relative-caret-position="320">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="31" />
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="25" />
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="30" />
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="25" />
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/第六天/String对象下的方法.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+        <state relative-caret-position="296">
+          <caret line="90" column="18" lean-forward="true" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
         </state>
       </provider>
     </entry>

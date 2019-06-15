@@ -22,6 +22,16 @@
      * .indexOf(要找的字符串,从某个位置开始的索引);返回的是这个字符串的索引值,没找到则返回-1
      * .lastIndexOf(要找的字符串);从后向前找,但是索引仍然是从左向右的方式,找不到则返回-1
      * .replace("原来的字符串","新的字符串");用来替换字符串的
+     * .slice(开始的索引,结束的索引); 从索引5的位置开始提取,到索引为10的前一个结束,没有10，并返回这个提取后的字符串
+     * .split("要干掉的字符串",切割后留下的个数);切割字符串
+     * .substr(开始的位置,个数);返回的是截取后的新的字符串
+     * .substring(开始的索引,结束的索引),返回截取后的字符串,不包含结束的索引的字符串
+     * .toLocaleLowerCase();转小写
+     * .toLowerCase();转小写
+     * .toLocaleUpperCase()转大写
+     * .toUpperCase();转大写
+     * .trim();干掉字符串两端的空格
+     *
      */
     // .length------>字符串的长度
     var str = "12345";
@@ -37,18 +47,54 @@
     results = str.concat("上山打老虎");
     console.log(results);
     // .indexOf(要找的字符串,从某个位置开始的索引);返回的是这个字符串的索引值,没找到则返回-1
-    index=str.indexOf("3",0);
+    index = str.indexOf("3", 0);
     console.log(index);
     // .lastIndexOf(要找的字符串);从后向前找,但是索引仍然是从左向右的方式,找不到则返回-1
-    lastindex=str.lastIndexOf("5");
+    lastindex = str.lastIndexOf("5");
     console.log(lastindex);
     // .replace("原来的字符串","新的字符串");用来替换字符串的
-    if (str.indexOf("12345")==!-1){
-        var replace=str.replace("12345","54321");
+    if (str.indexOf("12345") === !-1) {
+        var replace = str.replace("12345", "54321");
         console.log(replace);
-    }else {
+    } else {
         console.log("没有找到");
     }
+    // .slice(开始的索引,结束的索引); 从索引5的位置开始提取,到索引为10的前一个结束,没有10，并返回这个提取后的字符串  也就是提取
+    str = "这是一个要被提取的字符串";
+    str = str.slice(5, 8);
+    console.log(str);
+    // .split("要干掉的字符串",切割后留下的个数);切割字符串
+    str = "小明|小红|小军|小王";
+    str = str.split("|");
+    console.log(str);
+    // .substr(开始的位置,个数);返回的是截取后的新的字符串
+    str = "哈哈,小苏真的是好帅哦";
+    str = str.substr(5, 5);
+    console.log(str);
+    // .substring(开始的索引,结束的索引),返回截取后的字符串,不包含结束的索引的字符串
+    str = "哈哈,小苏真的是好帅哦";
+    str = str.substring(5, 9);
+    console.log(str);
+    // .toLocaleLowerCase();转小写
+    str = "HELLO";
+    str = str.toLocaleLowerCase();
+    console.log(str);
+    // .toLowerCase();转小写
+    str = "HELLO";
+    str = str.toLowerCase();
+    console.log(str);
+    // .toLocaleUpperCase()转大写
+    str = "hello";
+    str = str.toLocaleUpperCase();
+    console.log(str);
+    // .toUpperCase();转大写
+    str = "hello";
+    str = str.toUpperCase();
+    console.log(str);
+    // .trim();干掉字符串两端的空格
+    str = "        你好     ";
+    str = str.trim();
+    console.log(str);
 </script>
 </body>
 </html>
