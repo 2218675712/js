@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e25fa354-2c5a-4f73-bba7-52fbd19c9e7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/第六天/字符串的案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第六天/Array对象的方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第六天/作业.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第六天/基本包装类型.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第六天/String对象下的方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/第六天/String对象下的方法.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,20 +21,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/第六天/字符串的案例.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第六天/Array对象的方法.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="47" column="8" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+            <state relative-caret-position="312">
+              <caret line="95" column="19" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../03Javascript 基础/资料/01-JavaScript-第6天{JS基础语法}/04源代码/10字符串案例.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/第六天/作业.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="50" column="5" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="50" selection-end-column="5" />
+            <state relative-caret-position="313">
+              <caret line="89" column="30" lean-forward="true" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -47,6 +48,14 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>dele</find>
+    </findStrings>
+    <dirStrings>
+      <dir>D:\学习\网页\第二阶段.（JS+webAPI+jQuery基本功）\源代码</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -80,16 +89,19 @@
         <option value="$PROJECT_DIR$/第五天/内置对象.html" />
         <option value="$PROJECT_DIR$/第五天/Math对象.html" />
         <option value="$PROJECT_DIR$/第五天/作业.html" />
-        <option value="$PROJECT_DIR$/第六天/复习.html" />
         <option value="$PROJECT_DIR$/第六天/实现系统的Max方法.html" />
         <option value="$PROJECT_DIR$/第六天/产生随机十六进制颜色.html" />
         <option value="$PROJECT_DIR$/第六天/Date对象.html" />
         <option value="$PROJECT_DIR$/第六天/总结Date对象.html" />
         <option value="$PROJECT_DIR$/第六天/格式化日期时间.html" />
-        <option value="$PROJECT_DIR$/第六天/conmon.js" />
         <option value="$PROJECT_DIR$/第六天/String对象.html" />
         <option value="$PROJECT_DIR$/第六天/String对象下的方法.html" />
         <option value="$PROJECT_DIR$/第六天/字符串的案例.html" />
+        <option value="$PROJECT_DIR$/第六天/复习.html" />
+        <option value="$PROJECT_DIR$/第三天/数组-1.html" />
+        <option value="$PROJECT_DIR$/第六天/Array对象的方法.html" />
+        <option value="$PROJECT_DIR$/第六天/conmon.js" />
+        <option value="$PROJECT_DIR$/第六天/作业.html" />
       </list>
     </option>
   </component>
@@ -106,7 +118,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,15 +130,11 @@
               <item name="源代码" type="462c0819:PsiDirectoryNode" />
               <item name="第六天" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="源代码" type="b2602c69:ProjectViewProjectNode" />
-              <item name="源代码" type="462c0819:PsiDirectoryNode" />
-              <item name="第四天" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -145,12 +152,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\学习\网页\第二阶段.（JS+webAPI+jQuery基本功）\源代码\第五天" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\学习\网页\第二阶段.（JS+webAPI+jQuery基本功）\源代码\第六天" />
       <recent name="D:\学习\网页\第二阶段.（JS+webAPI+jQuery基本功）\源代码\js复习" />
-      <recent name="D:\学习\网页\第二阶段.（JS+webAPI+jQuery基本功）\源代码\第五天" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\学习\网页\第二阶段.（JS+webAPI+jQuery基本功）\源代码\第五天" />
     </key>
   </component>
@@ -245,7 +252,19 @@
       <workItem from="1560600847129" duration="3047000" />
       <workItem from="1560666267436" duration="983000" />
       <workItem from="1560698464093" duration="2706000" />
-      <workItem from="1560785850969" duration="1830000" />
+      <workItem from="1560785850969" duration="1914000" />
+      <workItem from="1560855996570" duration="598000" />
+      <workItem from="1560953862970" duration="73000" />
+      <workItem from="1561027762927" duration="3425000" />
+      <workItem from="1561038948653" duration="2043000" />
+      <workItem from="1561092025036" duration="47000" />
+      <workItem from="1561093029505" duration="782000" />
+      <workItem from="1561094581321" duration="209000" />
+      <workItem from="1561095034086" duration="56000" />
+      <workItem from="1561118526595" duration="992000" />
+      <workItem from="1561121515446" duration="62000" />
+      <workItem from="1561269589425" duration="2122000" />
+      <workItem from="1561388802357" duration="2999000" />
     </task>
     <task id="LOCAL-00001" summary="github ceshi">
       <created>1555935436826</created>
@@ -436,21 +455,27 @@
       <option name="project" value="LOCAL" />
       <updated>1560605657923</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="string">
+      <created>1560787978246</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1560787978247</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81394000" />
+    <option name="totallyTimeSpent" value="94886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11294584" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19022457" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32921812" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.6280057" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -468,6 +493,29 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.3297587" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19022457" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6280057" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32967034" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49934897" weight="0.32921812" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50065106" side_tool="true" weight="0.32719547" />
+      <window_info anchor="bottom" x="11" y="254" width="1514" height="315" id="调试" order="11" weight="0.46776405" />
+      <window_info anchor="bottom" id="Quokka" order="12" weight="0.32956153" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32967034" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.3297587" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -535,7 +583,8 @@
     <MESSAGE value="作业" />
     <MESSAGE value="6.8" />
     <MESSAGE value="字符串的方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="字符串的方法" />
+    <MESSAGE value="string" />
+    <option name="LAST_COMMIT_MESSAGE" value="string" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -562,123 +611,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://G:/JavaScript/5.14/作业.html" />
-    <entry file="file://$PROJECT_DIR$/第五天/设置和获取属性的另一种写法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="888">
-          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../03Javascript 基础/资料/01-JavaScript-第5天{JS基础语法}/04源代码/13JSON格式的数据.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="84" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../03Javascript 基础/资料/01-JavaScript-第5天{JS基础语法}/04源代码/14简单类型和复杂类型.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四天/作用域.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四天/作用域链.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第一天/两个变量交换.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="6" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第五天/内置对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="6" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第三天/数组-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-592" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第三天/数组-2.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第三天/数组-3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../03Javascript 基础/资料/01-JavaScript-第5天{JS基础语法}/04源代码/17Math对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../03Javascript 基础/资料/01-JavaScript-第5天{JS基础语法}/04源代码/18作业.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第五天/调用自定义构造函数创建对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第五天/作业.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2520">
-          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第五天/创建对象的图解.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第二天/do-while循环.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="6" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四天/04复习.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1960" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第四天/复习.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-112" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第四天/函数-1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-360" />
@@ -726,24 +658,10 @@
     <entry file="file://$PROJECT_DIR$/js复习/05复习.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/第四天/arguments对象伪数组.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../03Javascript 基础/资料/01-JavaScript-第6天{JS基础语法}/04源代码/01复习.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3528">
           <caret line="147" selection-start-line="6" selection-start-column="4" selection-end-line="147" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第五天/总结对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
@@ -754,24 +672,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第五天/自变量的方式创建对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第五天/自定义构造函数U创建对象做了4件事.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第六天/复习.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="95" column="27" lean-forward="true" selection-start-line="95" selection-start-column="27" selection-end-line="95" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -789,20 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第六天/实现系统的Max方法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="6" selection-start-line="8" selection-start-column="4" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第六天/总结Date对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第六天/产生随机十六进制颜色.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -810,24 +700,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第六天/conmon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../03Javascript 基础/资料/01-JavaScript-第6天{JS基础语法}/04源代码/08String对象.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
           <caret line="97" column="35" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="401" column="4" selection-start-line="401" selection-start-column="4" selection-end-line="401" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -847,6 +723,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../03Javascript 基础/资料/01-JavaScript-第6天{JS基础语法}/04源代码/10字符串案例.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-280">
+          <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第六天/String对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1752">
+          <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/第六天/Date对象.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
@@ -854,38 +744,191 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第六天/格式化日期时间.html">
+    <entry file="file://$PROJECT_DIR$/第四天/arguments对象伪数组.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="6" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="19" selection-end-column="6" />
+        <state relative-caret-position="296">
+          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/第六天/String对象.html">
+    <entry file="file://$PROJECT_DIR$/第六天/格式化日期时间.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
+        <state relative-caret-position="432">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第六天/实现系统的Max方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="6" selection-start-line="8" selection-start-column="4" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第六天/总结Date对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三天/数组-2.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三天/数组-3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop.ini">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/第六天/String对象下的方法.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="101" column="4" selection-start-line="101" selection-start-column="4" selection-end-line="101" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../03Javascript 基础/资料/01-JavaScript-第6天{JS基础语法}/04源代码/10字符串案例.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="50" column="5" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="50" selection-end-column="5" />
+        <state relative-caret-position="368">
+          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/第六天/字符串的案例.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第五天/总结对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第五天/自变量的方式创建对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js复习/03复习.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1584" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js复习/02复习.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2742">
+          <caret line="41" column="30" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="41" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第六天/复习.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第四天/作用域.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三天/数组-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第二天/乘法口诀表.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="27" column="6" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第二天/for循环.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-720" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第二天/do-while循环.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-64">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第二天/while练习.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1408" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第二天/while语句.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-256" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三天/break跳转关键字.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三天/continue关键字.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-568" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../03Javascript 基础/资料/01-JavaScript-第6天{JS基础语法}/04源代码/11Array对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="1265" column="4" selection-start-line="1265" selection-start-column="4" selection-end-line="1265" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第六天/conmon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../03Javascript 基础/资料/01-JavaScript-第6天{JS基础语法}/04源代码/12基本包装类型.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="47" column="8" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第六天/基本包装类型.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-256">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第六天/Array对象的方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="95" column="19" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第六天/作业.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="89" column="30" lean-forward="true" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
         </state>
       </provider>
     </entry>
