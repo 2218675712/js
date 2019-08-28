@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e25fa354-2c5a-4f73-bba7-52fbd19c9e7c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第三天/break跳转关键字.html" beforeDir="false" afterPath="$PROJECT_DIR$/第三天/break跳转关键字.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第六天/Array对象的方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/第六天/Array对象的方法.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,20 +32,22 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/第四天/函数-1.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/第二天/do-while循环.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/第三天/函数-3.html" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/第三天/数组-3.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/第四天/函数-1.html" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1OfJhz5rrV4ZO55bKPWKeq9dGYy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="添加" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/第六天" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,12 +57,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\学习\网页\第二阶段.（JS+webAPI+jQuery基本功）\源代码\第五天" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\学习\网页\第二阶段.（JS+webAPI+jQuery基本功）\源代码\第六天" />
       <recent name="D:\学习\网页\第二阶段.（JS+webAPI+jQuery基本功）\源代码\js复习" />
+      <recent name="D:\学习\网页\第二阶段.（JS+webAPI+jQuery基本功）\源代码\第五天" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\学习\网页\第二阶段.（JS+webAPI+jQuery基本功）\源代码" />
       <recent name="D:\学习\网页\第二阶段.（JS+webAPI+jQuery基本功）\源代码\第五天" />
     </key>
   </component>
@@ -180,6 +183,9 @@
       <workItem from="1565744976064" duration="8000" />
       <workItem from="1565931505949" duration="20000" />
       <workItem from="1565931540664" duration="305000" />
+      <workItem from="1566478004489" duration="174000" />
+      <workItem from="1566981421916" duration="30000" />
+      <workItem from="1566981496288" duration="235000" />
     </task>
     <task id="LOCAL-00001" summary="github ceshi">
       <created>1555935436826</created>
@@ -384,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561391851602</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="js总结完成">
+      <created>1566478148850</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1566478148850</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,6 +441,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="github ceshi" />
     <MESSAGE value="github" />
     <MESSAGE value="删掉" />
@@ -442,7 +456,8 @@
     <MESSAGE value="字符串的方法" />
     <MESSAGE value="string" />
     <MESSAGE value="基础" />
-    <option name="LAST_COMMIT_MESSAGE" value="基础" />
+    <MESSAGE value="js总结完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="js总结完成" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
